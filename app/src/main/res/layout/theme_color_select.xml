@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="8dip"
+    android:paddingLeft="16dip"
+    android:paddingRight="16dip"
+    android:paddingTop="8dip">
+
+    <LinearLayout
+        android:id="@+id/theme1"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_margin="10dip">
+
+        <Button
+            android:id="@+id/bt_theme1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="绿色"
+            android:background="@color/green" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/theme2"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_margin="10dip">
+
+        <Button
+            android:id="@+id/bt_theme2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:text="红色"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/theme3"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_margin="10dip">
+
+        <Button
+            android:id="@+id/bt_theme3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="?selectableItemBackground"
+            android:background="@color/gray"
+            android:text="灰色" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/theme4"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_margin="10dip">
+
+        <Button
+            android:id="@+id/bt_theme4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="?selectableItemBackground"
+            android:background="@color/font_gray"
+            android:text="深灰"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/theme5"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_margin="10dip">
+
+        <Button
+            android:id="@+id/bt_theme5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="?selectableItemBackground"
+            android:background="@color/colorPrimary"
+            android:text="蓝色" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/main_title"></include>
+    <Button
+        android:text="注册"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_register"
+        android:background="@color/gray"
+        android:textColor="@color/white"
+        android:layout_below="@+id/edit_code"
+        android:layout_centerHorizontal="true" />
+    <!--自定义的下划线EditText-->
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="你的手机号"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:textCursorDrawable="@color/gray" />
+
+    <EditText
+        android:id="@+id/edit_code"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/edit_phone"
+        android:layout_alignStart="@+id/edit_phone"
+        android:layout_below="@+id/edit_phone"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="请输入验证码"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:textCursorDrawable="@color/gray" />
+
+    <Button
+        android:id="@+id/btn_getcord"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/edit_code"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/gray"
+        android:text="获取验证码"
+        android:textColor="@color/white" />
+</RelativeLayout>
